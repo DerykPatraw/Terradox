@@ -280,14 +280,12 @@ public class PauseMenu1 : MonoBehaviour
 	bool IsBeginning() {
 		return (Time.time < startTime);
 	}
-	
-	
+
 	void MainPauseMenu() {
-		BeginPage(200,200);
-		if (GUILayout.Button (IsBeginning() ? "Play" : "Continue")) {
-			Cursor.visible = (false);
+		BeginPage (200, 200);
+
+		if (GUILayout.Button (IsBeginning () ? "Play" : "Continue")) {
 			UnPauseGame();
-			
 		}
 		if (GUILayout.Button ("Options")) {
 			currentPage = Page.Options;
