@@ -4,7 +4,7 @@ using System.Collections;
 public class RaycastCollider : MonoBehaviour {
 
 	GameObject currentMarble;
-	float range = 2.0f;
+	float range = 1.8f;
 	Ray ray;
 	RaycastHit hit;
 
