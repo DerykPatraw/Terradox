@@ -9,7 +9,7 @@ public class RaycastCollider : MonoBehaviour {
 	RaycastHit hit;
 
 	void Update() {
-		ray = Camera.main.ScreenPointToRay(Input.mousePosition); //ray is where camera is pointing
+		ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f)); //ray is where camera is pointing
 		if (Physics.Raycast (ray, out hit, range)) { //shoot ray forward a distance. If ray hits something...
 			print ("There is something in front of the object!");
 
