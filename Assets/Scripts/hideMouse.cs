@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class hideMouse : MonoBehaviour {
 
 	bool CursorLockedVar;
-	
+
 	void Start ()
 	{
 		Cursor.lockState = CursorLockMode.Locked;

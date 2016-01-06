@@ -15,6 +15,7 @@ public class RaycastCollider : MonoBehaviour {
 
 			if (hit.collider.tag == "Marble" && Input.GetKeyDown("e")) { //sees if the button is pressed and if it's a marble...
 				print ("You have interacted with the marble!");
+				Application.LoadLevel(1);
 			} 
 		}
 		else {
