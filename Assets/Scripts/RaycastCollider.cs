@@ -16,7 +16,31 @@ public class RaycastCollider : MonoBehaviour {
 			if (hit.collider.tag == "Marble" && Input.GetKeyDown("e")) { //sees if the button is pressed and if it's a marble...
 				//print ("You have interacted with the marble!");
 				Application.LoadLevel(1);
-			} 
+			}
+
+			else if (hit.collider.tag == "MarblePresent1" && Input.GetKeyDown("e")){
+				Application.LoadLevel(2);
+			}
+
+			else if (hit.collider.tag == "MarbleFarPast" && Input.GetKeyDown("e")){
+				Application.LoadLevel(3);
+			}
+
+			else if (hit.collider.tag == "MarblePast" && Input.GetKeyDown("e")){
+				Application.LoadLevel(4);
+			}
+
+			else if (hit.collider.tag == "MarblePresent2" && Input.GetKeyDown("e")){
+				Application.LoadLevel(5);
+			}
+
+			else if (hit.collider.tag == "MarbleFuture" && Input.GetKeyDown("e")){
+				Application.LoadLevel(6);
+			}
+
+			else if (hit.collider.tag == "MarbleFarFuture" && Input.GetKeyDown("e")){
+				Application.LoadLevel(2);
+			}
 		}
 		else {
 			//print("There is nothing here.");

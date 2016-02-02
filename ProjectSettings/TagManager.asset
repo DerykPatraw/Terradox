@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Marble
+  - MarblePresent1
+  - MarbleFarPast
+  - MarblePast
+  - MarblePresent2
+  - MarbleFuture
+  - MarbleFarFuture
   layers:
   - Default
   - TransparentFX
