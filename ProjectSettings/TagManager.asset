@@ -11,6 +11,7 @@ TagManager:
   - MarblePresent2
   - MarbleFuture
   - MarbleFarFuture
+  - MarbleExit
   layers:
   - Default
   - TransparentFX
