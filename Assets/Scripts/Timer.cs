@@ -6,8 +6,8 @@ public class Timer : MonoBehaviour {
 	float timeRemaining = 300.0f; //set initial time (Time.DeltaTime returns float)
 
 	// Use this for initialization
-	void Start () {
-	
+	void Awake() {
+		DontDestroyOnLoad (transform.gameObject); //don't destroy timer object upon new level
 	}
 	
 	// Update is called once per frame
@@ -17,6 +17,10 @@ public class Timer : MonoBehaviour {
 				
 		if (timeRemaining < 0) {
 			Application.LoadLevel(0); //when timer reaches zero, load spash plaige (currently test level)
+		}
+
+		if (Application.loadedLevel == 0) {
+			timeRemaining = 300.0f;
 		}
 	}
 }

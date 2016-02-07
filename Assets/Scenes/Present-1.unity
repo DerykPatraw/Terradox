@@ -6345,32 +6345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 863c1223a6f068d42a97ee2aa58ea3e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1341046790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1341046788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8e977a12fb866478b7f31421b4a545, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skin: {fileID: 0}
-  mat: {fileID: 0}
-  lowFPSColor: {r: 1, g: 0, b: 0, a: 1}
-  highFPSColor: {r: 0, g: 1, b: 0, a: 1}
-  lowFPS: 30
-  highFPS: 50
-  start: {fileID: 0}
-  url: unity.html
-  statColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
-  credits:
-  - A Fugu Games Production
-  - Programming by Phil Chu
-  - Fugu logo by Shane Nakamura Designs
-  - Copyright (c) 2007-2008 Technicat, LLC
-  crediticons: []
 --- !u!1 &1369960977
 GameObject:
   m_ObjectHideFlags: 0
