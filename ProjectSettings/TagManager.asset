@@ -12,6 +12,7 @@ TagManager:
   - MarbleFuture
   - MarbleFarFuture
   - MarbleExit
+  - ManInWhite
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - ManInWhite
   - 
   - 
   - 
