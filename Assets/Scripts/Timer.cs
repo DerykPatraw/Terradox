@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour {
 		}
 
 		if (Application.loadedLevel == 0) {
-			timeRemaining = 300.0f;
+			timeRemaining = 650.0f;
 		}
 	}
 }
