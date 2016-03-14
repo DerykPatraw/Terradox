@@ -23,7 +23,7 @@ public class aiFollow : MonoBehaviour {
 	{
 		if(col.GetComponent<Collider>().tag == "Player")
 		{
-			Application.LoadLevel (1);
+			Application.LoadLevel (0);
 		}
 	}
 }

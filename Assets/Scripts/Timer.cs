@@ -1,25 +1,27 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 public class Timer : MonoBehaviour {
 
-	float timeRemaining = 300.0f; //set initial time (Time.DeltaTime returns float)
+	float timeRemaining; //number that counts down
+	string timeLeft; //what user sees
 
-	// Use this for initialization
-	void Awake() {
-		DontDestroyOnLoad (transform.gameObject); //don't destroy timer object upon new level
-	}
+	public Text text;
 	
 	// Update is called once per frame
 	void Update() {
 		timeRemaining -= Time.deltaTime; //count down timeRemaining upon start
-		print(timeRemaining); //show how much time is remaining
+		timeLeft = string.Format("{0:0.0}", timeRemaining); //Show user the time 
+		print(timeLeft); //show how much time is remaining
+
+		text.text = timeLeft; //display time on screen
 				
 		if (timeRemaining < 0) {
 			Application.LoadLevel(0); //when timer reaches zero, load spash plaige
 		}
 
 		if (Application.loadedLevel == 0) {
-			timeRemaining = 650.0f;
+			timeRemaining = 650.0f; //set initial time
 		}
 	}
 }
