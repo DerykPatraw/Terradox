@@ -257,17 +257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 863c1223a6f068d42a97ee2aa58ea3e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1341046790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1341046788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbc1d8b5d6c92bd47b34688b87a27b98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1457969508
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +332,7 @@ GameObject:
   - 114: {fileID: 1630089157}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: MarbleFarPast
+  m_TagString: Marble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -356,7 +345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1630089156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbc1d8b5d6c92bd47b34688b87a27b98, type: 3}
+  m_Script: {fileID: 11500000, guid: b16b4d722c031804da0c09b3f7e7c0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1630089158
@@ -392,10 +381,10 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1630089156}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1630089160
 MeshFilter:
