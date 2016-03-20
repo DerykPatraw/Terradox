@@ -5,6 +5,6 @@ public class DontDestroy : MonoBehaviour {
 
 	// Used for loading levels
 	void Awake () {
-		DontDestroyOnLoad (transform.gameObject);
+			DontDestroyOnLoad (transform.gameObject);
 	}
 }
