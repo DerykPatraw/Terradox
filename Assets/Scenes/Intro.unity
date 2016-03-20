@@ -546,8 +546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761fcfd60e01b7d45b08bf230235489e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeInHierarchy: 0
-  ManInWhite: {fileID: 0}
+  ManInWhite: {fileID: 182604, guid: f9da09a170b1ffb43b535ed782ead822, type: 2}
+  spawn: {fileID: 781611315}
 --- !u!4 &781611317
 Transform:
   m_ObjectHideFlags: 0
