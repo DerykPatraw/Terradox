@@ -5,9 +5,10 @@ public class aiFollow : MonoBehaviour {
 
 	Transform tr_Player;
 	float f_RotSpeed=3.0f,f_MoveSpeed = 3.0f;
+    public GameObject DeathCanvas;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
 		tr_Player = GameObject.FindGameObjectWithTag ("Player").transform; }
 
@@ -23,7 +24,8 @@ public class aiFollow : MonoBehaviour {
 	{
 		if(col.GetComponent<Collider>().tag == "Player")
 		{
-			Application.LoadLevel (0);
+			Instantiate(DeathCanvas);
+			//Application.LoadLevel (0);
 		}
 	}
 }
