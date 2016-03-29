@@ -14,7 +14,7 @@ public class SphereCollider : MonoBehaviour {
 			Application.LoadLevel (0);
 		}
 		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "MarbleTutorial") {
-			Application.LoadLevel (0);
+			Application.LoadLevel (8);
 		}
 	}
 }

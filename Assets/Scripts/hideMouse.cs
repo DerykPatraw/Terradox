@@ -31,5 +31,9 @@ public class hideMouse : MonoBehaviour {
 			CursorLockedVar = (false);
 			Time.timeScale = 0;
 		}
+
+		else if(Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl) && Input.GetKeyDown(KeyCode.Escape)) {
+			Application.Quit();
+		}
 	}
-}
+} 
