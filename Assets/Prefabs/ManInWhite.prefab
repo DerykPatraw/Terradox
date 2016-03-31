@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d815f58ea9acab34d9f5b7faca67e6be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeathCanvas: {fileID: 129630, guid: b4c3817e3043a7144bfa9943a929b71d, type: 2}
+  DeathCanvas: {fileID: 176958, guid: 60aab5e7af498fb4084226897a4b8f3d, type: 2}
 --- !u!136 &13632158
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1697,7 +1697,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: DeathCanvas
       value: 
-      objectReference: {fileID: 129630, guid: b4c3817e3043a7144bfa9943a929b71d, type: 2}
+      objectReference: {fileID: 176958, guid: 60aab5e7af498fb4084226897a4b8f3d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 182604}

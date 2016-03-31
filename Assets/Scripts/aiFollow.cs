@@ -20,8 +20,7 @@ public class aiFollow : MonoBehaviour {
 		/* Move at Player*/
 		transform.position += transform.forward * f_MoveSpeed * Time.deltaTime;
 	}
-	void OnTriggerEnter(Collider col)
-	{
+	void OnTriggerEnter(Collider col) {
 		if(col.GetComponent<Collider>().tag == "Player")
 		{
 			Instantiate(DeathCanvas);

@@ -4,14 +4,15 @@ using System.Collections;
 public class GameOverScript : MonoBehaviour {
     Animator anim;
 
-    void Awake()
+   void Awake()
    {
         anim = GetComponent<Animator>();
-        anim.SetTrigger("GameOver");
    }
 	
 	// Update is called once per frame
 	void Update () {
+			anim.SetTrigger ("GameOver");
+
 		if (Input.GetKey (KeyCode.Return)) {
 			Application.LoadLevel (0);
 		}
