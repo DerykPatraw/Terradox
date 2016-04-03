@@ -4,7 +4,7 @@ using System.Collections;
 public class aiFollow : MonoBehaviour {
 
 	Transform tr_Player;
-	float f_RotSpeed=3.0f,f_MoveSpeed = 3.0f;
+	float f_RotSpeed=7.0f,f_MoveSpeed = 7.0f;
     public GameObject DeathCanvas;
 
     // Use this for initialization
