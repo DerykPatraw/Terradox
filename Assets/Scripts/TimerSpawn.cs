@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TimerSpawn : MonoBehaviour {
 
-	static float timeRemaining = 10.0f;
+	static float timeRemaining = 300.0f;
 	public GameObject ManInWhite;
 	public GameObject spawn;
 
@@ -15,14 +15,14 @@ public class TimerSpawn : MonoBehaviour {
 		Debug.Log ("Active Hierarchy: " + ManInWhite.activeInHierarchy);
 
 		//Don't count down in spash plaige
-		if (Application.loadedLevel == 0) {
-			timeRemaining = 10.0f; //set initial time
+		if (Application.loadedLevel == 1) {
+			timeRemaining = 300.0f; //set initial time
 		} 
 
 		//count down from initial time
 		if (timeRemaining > 0) { 
 			timeRemaining -= Time.deltaTime; //count down timeRemaining in seconds
-			print (timeRemaining);
+			//print (timeRemaining);
 		}
 
 		//spawn ManInWhite on SpawnTimer position (only if there isn't already a man in white)

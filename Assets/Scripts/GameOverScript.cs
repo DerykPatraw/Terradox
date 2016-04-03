@@ -4,8 +4,7 @@ using System.Collections;
 public class GameOverScript : MonoBehaviour {
     Animator anim;
 
-   void Awake()
-   {
+   void Awake() {
         anim = GetComponent<Animator>();
    }
 	
@@ -14,7 +13,7 @@ public class GameOverScript : MonoBehaviour {
 			anim.SetTrigger ("GameOver");
 
 		if (Input.GetKey (KeyCode.Return)) {
-			Application.LoadLevel (0);
+			Application.LoadLevel (1);
 		}
 	}
 }

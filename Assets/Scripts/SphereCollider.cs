@@ -11,10 +11,10 @@ public class SphereCollider : MonoBehaviour {
 			Application.Quit ();
 		}
 		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "MarblePresent3") {
-			Application.LoadLevel (0);
+			Application.LoadLevel (1);
 		}
 		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "MarbleTutorial") {
-			Application.LoadLevel (8);
+			Application.LoadLevel (9);
 		}
 	}
 }
