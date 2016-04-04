@@ -78,7 +78,6 @@ public class OVRCameraRig : MonoBehaviour
 	private void Awake()
 	{
 		EnsureGameObjectIntegrity();
-		OVRManager.display.RecenterPose();
 	}
 
 	private void Start()
@@ -93,12 +92,13 @@ public class OVRCameraRig : MonoBehaviour
 
 	private void Update()
 	{
-		EnsureGameObjectIntegrity();
+		EnsureGameObjectIntegrity ();
 		
 		if (!Application.isPlaying)
 			return;
 
-		UpdateAnchors();
+		UpdateAnchors ();
+	}
 
 #if UNITY_ANDROID && !UNITY_EDITOR
 
@@ -116,7 +116,6 @@ public class OVRCameraRig : MonoBehaviour
             }
         }
 #endif
-	}
 
 #endregion
 
@@ -260,3 +259,5 @@ public class OVRCameraRig : MonoBehaviour
 		return anchor;
 	}
 }
+
+
