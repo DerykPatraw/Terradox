@@ -78,6 +78,7 @@ public class OVRCameraRig : MonoBehaviour
 	private void Awake()
 	{
 		EnsureGameObjectIntegrity();
+		OVRManager.display.RecenterPose();
 	}
 
 	private void Start()
