@@ -8,9 +8,12 @@ public class FadeScript : MonoBehaviour {
 	static float Count = 0.0f; //starting time
 	static float Finish = 32.0f; //time until moving to next scene
 
+	public 
+
 	// Use this for initialization
 	void Awake () {
 		anim = GetComponent<Animator>(); //reference component
+
 	}
 	
 	// Update is called once per frame
