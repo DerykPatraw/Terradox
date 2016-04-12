@@ -1157,6 +1157,7 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1512,8 +1513,9 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1831343097}
-  m_Text: "~Welcome to Terradox~\nWASD is used for movement.\nMouse and head movement(If
-    on Oculus)\nis for looking around.\nWalk into the spheres to begin. \n"
+  m_Text: "~Welcome to Terradox~\nWASD is used for movement. Escape is pause.\nMouse
+    and head movement(If on Oculus)\nis for looking around.\nPressing left/right control+escape
+    quits.\nWalk into the spheres to begin. \n"
   m_OffsetZ: 0
   m_CharacterSize: 0.4
   m_LineSpacing: 1

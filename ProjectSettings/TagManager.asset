@@ -9,6 +9,7 @@ TagManager:
   - ManInWhite
   - MarblePresent3
   - MarbleTutorial
+  - TutorialExit
   layers:
   - Default
   - TransparentFX

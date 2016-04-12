@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//Calls 'death' animation and scene return
 public class GameOverScript : MonoBehaviour {
     Animator anim;
 

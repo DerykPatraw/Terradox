@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//Allows man in white to follow you.
 public class aiFollow : MonoBehaviour {
 
 	Transform tr_Player;

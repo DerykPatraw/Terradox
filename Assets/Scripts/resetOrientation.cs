@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.VR;
-
+//Resets oculus
 public class Example : MonoBehaviour {
 
 	void Start () {

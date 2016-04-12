@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//Toggleable flashlight
 public class flashLight : MonoBehaviour {
 
 	public Light myLight;
