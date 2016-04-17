@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TimerSpawn : MonoBehaviour {
 
-	static float timeRemaining = 300.0f;
+	static float timeRemaining = 1.0f;
 	public GameObject ManInWhite;
 	public GameObject spawn;
 
@@ -16,7 +16,7 @@ public class TimerSpawn : MonoBehaviour {
 
 		//Don't count down in spash plaige
 		if (Application.loadedLevel == 1) {
-			timeRemaining = 300.0f; //set initial time
+			timeRemaining = 1.0f; //set initial time
 		} 
 
 		//count down from initial time

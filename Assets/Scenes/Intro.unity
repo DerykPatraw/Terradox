@@ -41,7 +41,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 6
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -214,7 +214,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11474928, guid: e3bfa449bcb4bed4cb3267b8558e59dd, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e3bfa449bcb4bed4cb3267b8558e59dd, type: 2}
   m_IsPrefabParent: 0
 --- !u!20 &990559682 stripped

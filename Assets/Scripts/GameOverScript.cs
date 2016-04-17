@@ -10,10 +10,10 @@ public class GameOverScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-			anim.SetTrigger ("GameOver");
+		anim.SetTrigger ("GameOver");
 
 		if (Input.GetKey (KeyCode.Return)) {
-			Application.LoadLevel (1);
+			Application.LoadLevel (10);
 		}
 	}
 }
