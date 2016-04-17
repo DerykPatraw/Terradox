@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		
+
 		timeRemaining -= Time.deltaTime; //count down timeRemaining upon start
 
 		if (timeRemaining < 0) { //when timer reaches zero...

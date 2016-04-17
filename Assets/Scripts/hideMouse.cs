@@ -13,6 +13,7 @@ public class hideMouse : MonoBehaviour {
 		Cursor.visible = (false);
 		CursorLockedVar = (true);
 		Time.timeScale = 1;
+		AudioListener.pause = (false);
 	}
 	//Every update, check if user has pressed escape and if the pause variable is already assigned
 	void Update ()

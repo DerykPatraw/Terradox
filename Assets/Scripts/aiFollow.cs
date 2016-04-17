@@ -7,6 +7,7 @@ public class aiFollow : MonoBehaviour {
 	float f_RotSpeed=7.0f,f_MoveSpeed = 7.0f;
     public GameObject DeathCanvas;
 
+
     // Use this for initialization
     void Start () {
 
@@ -23,7 +24,8 @@ public class aiFollow : MonoBehaviour {
 	void OnTriggerEnter(Collider col) {
 		if(col.GetComponent<Collider>().tag == "Player")
 		{
-			Instantiate(DeathCanvas);
+			DeathCanvas.GetComponent<GameOverScript>().GameOver();
+			//Instantiate(DeathCanvas);
 			//Application.LoadLevel (0);
 		}
 	}
