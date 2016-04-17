@@ -425,6 +425,14 @@ Prefab:
       propertyPath: m_PlaneDistance
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 11412262, guid: 60aab5e7af498fb4084226897a4b8f3d, type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 964106275}
+    - target: {fileID: 11412262, guid: 60aab5e7af498fb4084226897a4b8f3d, type: 2}
+      propertyPath: SpawnTimer
+      value: 
+      objectReference: {fileID: 781611315}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60aab5e7af498fb4084226897a4b8f3d, type: 2}
   m_IsPrefabParent: 0
