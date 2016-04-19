@@ -9,11 +9,11 @@ public class TutorialCollider : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "TutorialExit") {
-			Destroy (SpawnTimer);
 			Destroy (Player2);
 			Application.LoadLevel (1);
 		}
 		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "MarbleTutorial") {
+			Destroy (SpawnTimer);
 			Destroy (Player1);
 			Application.LoadLevel (9);
 		}

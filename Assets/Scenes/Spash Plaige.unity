@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player1: {fileID: 964106275}
   Player2: {fileID: 0}
+  SpawnTimer: {fileID: 781611315}
 --- !u!23 &137114796
 MeshRenderer:
   m_ObjectHideFlags: 0
