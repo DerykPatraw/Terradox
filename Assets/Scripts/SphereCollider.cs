@@ -3,6 +3,7 @@ using System.Collections;
 //The commands for the teleporting system
 public class SphereCollider : MonoBehaviour {
 	//Main spawn system
+
 	void OnTriggerEnter(Collider other) {
 		if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "Marble") { //Checks the tags and colliders, and if match teleports you to next level
 			Application.LoadLevel (Application.loadedLevel + 1);
@@ -12,12 +13,6 @@ public class SphereCollider : MonoBehaviour {
 		}
 		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "MarblePresent3") {
 			Application.LoadLevel (10);
-		}
-		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "MarbleTutorial") {
-			Application.LoadLevel (9);
-		}
-		else if (other.GetComponent<Collider> ().tag == "Player" && this.gameObject.tag == "TutorialExit") {
-			Application.LoadLevel (1);
 		}
 	}
 }

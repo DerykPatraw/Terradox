@@ -112,9 +112,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 137114794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b16b4d722c031804da0c09b3f7e7c0c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 60899fd05349313459c3010cd5f6e525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player1: {fileID: 964106275}
+  Player2: {fileID: 0}
 --- !u!23 &137114796
 MeshRenderer:
   m_ObjectHideFlags: 0
